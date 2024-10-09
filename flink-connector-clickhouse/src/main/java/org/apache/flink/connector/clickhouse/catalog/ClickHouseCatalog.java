@@ -98,7 +98,7 @@ public class ClickHouseCatalog extends AbstractCatalog {
 
     private final Map<String, String> properties;
 
-    private ClickHouseConnection connection;
+    protected ClickHouseConnection connection;
 
     public ClickHouseCatalog(String catalogName, Map<String, String> properties) {
         this(
